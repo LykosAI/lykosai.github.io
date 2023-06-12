@@ -2622,3 +2622,18 @@ p {
   color: #fff;
   padding: 4px;
 }
+
+.white-link-text {
+  color: var(--primary-text-color);
+  text-decoration: underline;
+}
+
+.white-link-text:hover {
+  color: var(--heading-color);
+  text-decoration: underline;
+}
+
+.ud-about .container p, .ud-about .container ul { 
+  color: black;
+  list-style-type: disc;
+}
