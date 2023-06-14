@@ -117,9 +117,22 @@ h6 {
 
 ul,
 ol {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+
+.indented-ul {
+  margin: 8px;
+  padding-left: 16px;
+  list-style-type: none;
+}
+
+.indented-ol {
+  margin: 8px;
+  padding-left: 16px;
+  list-style-type: decimal;
+  color: black;
 }
 
 p {
@@ -127,7 +140,8 @@ p {
   font-weight: 400;
   line-height: 26px;
   color: var(--body-color);
-  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .bg_cover {
