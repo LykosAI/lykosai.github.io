@@ -1,5 +1,8 @@
 ﻿name: Cache Purge
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
